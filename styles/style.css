@@ -1,1 +1,70 @@
 /* место для кода*/
+
+.body {
+  position: relative;
+}
+
+.header {
+  width: 1052px;
+  min-height: 105px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.body__header {
+  margin: 92px auto 96px;
+}
+
+.header__menu {
+  min-width: 392px;
+}
+
+.header__links-list {
+  display: flex;
+  list-style: circle;
+  justify-content: space-between;
+
+}
+
+/* .header__links-list-item {
+  
+} */
+
+.header__links-list-item_no-bullit{
+  list-style: none;
+}
+
+.header__link {
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 21px;
+text-decoration: underline;
+}
+
+.header__link_active {
+  text-decoration: none;
+}
+
+.header__logo {
+  display: block;
+  width: 148px;
+  height: 105px;
+  margin: 0;
+  padding: 0;
+
+}
+
+.header__logo-image {
+  height: 100%;
+}
+
+.address {
+  max-width: 240px;
+  padding: 0 40px 0 0;
+}
+
+.header__address {
+  margin: 0 0 0 152px;
+}
+
